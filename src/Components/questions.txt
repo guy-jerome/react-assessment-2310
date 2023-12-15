@@ -1,7 +1,7 @@
 Answer all of the questions below. Make sure to save and push answers! Good luck. 
 
 1. A React component rerenders when:
-    [] It's internal state is updated
+    [X] It's internal state is updated
     [] useEffect is called
     [] It's props change
     [] An event is fired from a node in its output
@@ -9,17 +9,17 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
 2. If you want to perform an action once when a component loads, you should put that code:
     [] In the body of the component function
     [] Outside the body of the compoentn function
-    [] In a call to the useEffect hook
+    [X] In a call to the useEffect hook
     [] This is impossible to do in react
 
 3. True / false: Nested components are also called child components.
-    [] True
+    [X] True
     [] False
 
 4. (Write answer below) - What does the import keyword do? What similar keyword do we use for javascript that is running in a NodeJS environment (using CommonJS)?
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The import keyword in javascript is used to dynamically load other files and modules. In commonJS and in the Node environment we use the require keyword. 
 
 
 5. Given the following code - what is the name of the component to be rendered?
@@ -52,7 +52,7 @@ Answer all of the questions below. Make sure to save and push answers! Good luck
     Put name of component here: 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The component that is being rendered is <FishTable/>
 
 6. Given the following code:
 
@@ -85,7 +85,7 @@ var fishData = [
 
     Answer: 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fishData is being passed into the FishTable component as the value of the fishes prop. fishes = key fishData = value (this is a prop)
 
 
 7. Given the following code:
@@ -117,7 +117,7 @@ var fishData = [
 
     What is the purpose of this code: fishes={fishData}?
 
-    answer: 
+    answer: Fishes={fishData} is simply the syntax to pass the values of fishData down as a prop to the <FishTable/> component. Based on the context of the code and variable names I would assume that <FishTable/> would take in this array of objects and then pass each fish into a child component named <FishRow/> and create a React component using the data and rendering it. 
 
 
 
